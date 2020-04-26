@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		D9BE28BF245504620002BB44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BE28BE245504620002BB44 /* AppDelegate.swift */; };
-		D9BE28C1245504620002BB44 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BE28C0245504620002BB44 /* ContentView.swift */; };
 		D9BE28C3245504630002BB44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9BE28C2245504630002BB44 /* Assets.xcassets */; };
 		D9BE28C6245504630002BB44 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9BE28C5245504630002BB44 /* Preview Assets.xcassets */; };
 		D9BE28C9245504640002BB44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9BE28C7245504640002BB44 /* LaunchScreen.storyboard */; };
+		D9BE28D3245505E70002BB44 /* TextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BE28D0245505E70002BB44 /* TextCell.swift */; };
+		D9BE28D4245505E70002BB44 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BE28D1245505E70002BB44 /* RootViewController.swift */; };
+		D9BE28D5245505E70002BB44 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BE28D2245505E70002BB44 /* CollectionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D9BE28BB245504620002BB44 /* TvOS collection view content inset bug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TvOS collection view content inset bug.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9BE28BE245504620002BB44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D9BE28C0245504620002BB44 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D9BE28C2245504630002BB44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D9BE28C5245504630002BB44 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D9BE28C8245504640002BB44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D9BE28CA245504640002BB44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9BE28D0245505E70002BB44 /* TextCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextCell.swift; sourceTree = "<group>"; };
+		D9BE28D1245505E70002BB44 /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		D9BE28D2245505E70002BB44 /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +58,10 @@
 		D9BE28BD245504620002BB44 /* TvOS collection view content inset bug */ = {
 			isa = PBXGroup;
 			children = (
+				D9BE28D2245505E70002BB44 /* CollectionViewController.swift */,
+				D9BE28D1245505E70002BB44 /* RootViewController.swift */,
+				D9BE28D0245505E70002BB44 /* TextCell.swift */,
 				D9BE28BE245504620002BB44 /* AppDelegate.swift */,
-				D9BE28C0245504620002BB44 /* ContentView.swift */,
 				D9BE28C2245504630002BB44 /* Assets.xcassets */,
 				D9BE28C7245504640002BB44 /* LaunchScreen.storyboard */,
 				D9BE28CA245504640002BB44 /* Info.plist */,
@@ -143,8 +149,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9BE28C1245504620002BB44 /* ContentView.swift in Sources */,
+				D9BE28D5245505E70002BB44 /* CollectionViewController.swift in Sources */,
+				D9BE28D3245505E70002BB44 /* TextCell.swift in Sources */,
 				D9BE28BF245504620002BB44 /* AppDelegate.swift in Sources */,
+				D9BE28D4245505E70002BB44 /* RootViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
